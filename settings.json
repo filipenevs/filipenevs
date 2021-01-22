@@ -1,0 +1,33 @@
+// my settings for vs-code
+
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'IBM Plex Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tokenColorCustomizations": {
+    "[Dracula]": {
+      "textMateRules": [
+        {
+          "scope": ["variable", "variable.other.constant"],
+          "settings": {
+            "foreground": "#ffffff"
+          }
+        }
+      ]
+    }
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "prettier.enable": true,
+  "prettier.singleQuote": true
+}
