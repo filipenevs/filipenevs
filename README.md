@@ -12,6 +12,7 @@
 - JQuery
 - Bootstrap
 - React
+  - Styled Components
 
 #### :wrench: - Back-end
 
