@@ -9,7 +9,8 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.fontSize": 14,
-  "editor.fontFamily": "'IBM Plex Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Fira Code', 'IBM Plex Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tokenColorCustomizations": {
@@ -31,3 +32,11 @@
   "prettier.enable": true,
   "prettier.singleQuote": true
 }
+
+/* Extensions
+ *
+ * > Bracket Pair Colorizer 2
+ * > ES7 React/Redux/GraphQL/React-Native snippets
+ * > Prettier - Code formatter
+ * > vscode-styled-components
+ */
