@@ -11,12 +11,14 @@
 - JavaScript
 - JQuery
 - Bootstrap
+- Tailwind
 - React
   - Styled Components
+- Vue
 
 #### :wrench: - Back-end
 
 - Node.js
   - Express
 - MongoDB
-- MySQL
+- SQL
