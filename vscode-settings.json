@@ -1,0 +1,80 @@
+{
+    // Workbench
+  "workbench.colorTheme": "Dracula",
+  "workbench.colorCustomizations": {
+    "editor.background": "#1c1d25",
+    "menu.background": "#1c1d25",
+    "panel.background": "#1c1d25",
+    "terminal.background": "#1c1d25",
+    "tab.activeBackground": "#1c1d25",
+    "activityBar.background": "#1c1d25",
+    "sideBar.background": "#1c1d25",
+    // "sideBar.background": "#1A1B22",
+  },
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.labelFormat": "short",
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  // Explorer
+  "explorer.compactFolders": false,
+
+  // Editor
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "bold",
+  "editor.lineHeight": 1.5,
+  // "editor.rulers": [100,150], // idk
+  "editor.renderLineHighlight": "gutter",
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.verticalScrollbarSize": 12, // idk mouse
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["variable", "variable.other.constant"],
+        "settings": {
+          "foreground": "#fff"
+        }
+      }
+    ]
+  },
+  "editor.formatOnPaste": false,
+
+  // Terminal
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontFamily": "JetBrainsMonoNl Nerd Font",
+
+  // Window
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
+
+  // Telemetry
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+
+  // APC
+  // "apc.font.family": "Inter", // idk
+  "apc.font.family": "JetBrainsMonoNl Nerd Font", // idk
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".pane-body": "padding: 8px 0",
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+
+  // GitLens
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.graph.layout": "editor",
+  "gitlens.graph.avatars": false,
+  "gitlens.graph.allowMultiple": false,
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.graph.statusBar.enabled": false,
+
+  // Symbols
+  "symbols.hidesExplorerArrows": false,
+}
